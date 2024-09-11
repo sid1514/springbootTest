@@ -32,10 +32,11 @@ import java.util.Locale;
  */
 @SpringBootApplication
 @ImportRuntimeHints(PetClinicRuntimeHints.class)
-public class PetClinicApplication {
+public class TrainingApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PetClinicApplication.class, args);
+		SpringApplication.run(TrainingApp.class, args);
+		
 	}
 
 }
